@@ -1,8 +1,10 @@
+<!-- This component represent the link in the navbar that routes to other sections of the site
+    it has the functionality to create a dropdown menu with more links to other sections -->
 <template>
     <section>
-        <a href="#" ref="menu" @mouseover="openDropdown" @mouseleave="closeDropdown">{{menuTitle}}</a>
+        <a href="#" ref="link" @click="openDropdown">{{linkTitle}}</a>
 
-        <section v-if="isOpen">
+        <section class="dropdown" v-if="isOpen">
             <slot></slot>
         </section>
 
@@ -11,7 +13,7 @@
 
 <script>
 export default {
-    props: ["menuTitle"],
+    props: ["linkTitle"],
     data() {
         return {
             isOpen: false
@@ -29,5 +31,17 @@ export default {
 </script>
 
 <style scoped>
+    a {
+        color: #30744A;
+    }
+
+    .dropdown{
+        position: relative;
+        top: 5px;
+        display: flex;
+        flex-direction:column-reverse;
+        place-items: center;
+        background-color: red;
+    }
 
 </style>
