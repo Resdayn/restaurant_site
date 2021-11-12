@@ -4,52 +4,82 @@
  -->
 <template>
     <nav>
-        <h1>LOGO HERE</h1>
-        <nav-link linkTitle="Home">
-            <section>
-                <a href="#">Home</a>
-            </section>
-        </nav-link>
-        <nav-link linkTitle="About Us">
-            <a href="#">About Us</a>
-            <a href="#">Team</a>
-        </nav-link>
-        <nav-link linkTitle='Services'>
-            <a href="#">Services</a>
-            <a href="#">Menu</a>    
-        </nav-link>
-        <nav-link linkTitle='Page'>
-            <a href="#">FAQs</a>
-            <a href="#">Gallery</a>
-            <a href="#">Blog</a> 
-            <a href="#">Product Category</a>     
-        </nav-link>
-        <nav-link linkTitle='Contact Us'>
-            <a href="#">Contact Us</a>     
-        </nav-link>
-        <button>Login</button>
-        <button>Booking</button>
+        <div>
+            <img src="../../assets/restaurant_logo.png" alt="">
+        </div>
+        <div class="links-container">
+            <nav-link linkTitle="Home">
+                <section>
+                    <a href="#">Home</a>
+                </section>
+            </nav-link>
+            <nav-link linkTitle="About Us">
+                <a href="#">About Us</a>
+                <a href="#">Team</a>
+            </nav-link>
+            <nav-link linkTitle='Services'>
+                <a href="#">Services</a>
+                <a href="#">Menu</a>    
+            </nav-link>
+            <nav-link linkTitle='Page'>
+                <a href="#">FAQs</a>
+                <a href="#">Gallery</a>
+                <a href="#">Blog</a> 
+                <a href="#">Product Category</a>     
+            </nav-link>
+            <nav-link linkTitle='Contact Us'>
+                ,<a href="#">Contact Us</a>     
+            </nav-link>
+        </div>
+        <div class="buttons-container">
+            <base-button buttonTitle="Login" buttonType="flatButton"></base-button>
+            <base-button buttonTitle="Booking" buttonType="wholeButton"></base-button>
+        </div>
+        
     </nav>
 </template>
 
 <script>
+import BaseButton from '../Base/BaseButton.vue'
 import NavLink from './NavLink.vue'
 export default {
     components: {
         NavLink,
+        BaseButton,
     }
     
 }
 </script>
 
 <style scoped>
-nav {
+nav{
     display: flex;
     place-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-h1 {
-    margin-right: 500px;
+img {
+    width: 120px;
+    height: 60px;
+}
+
+.links-container{
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.buttons-container{
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px 35px;
+    color: #30744A;
 }
 </style>
