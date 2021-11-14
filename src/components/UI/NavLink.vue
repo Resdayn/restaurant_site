@@ -7,9 +7,6 @@
                 <slot></slot>
             </section>    
         </a>
-
-        
-
     </section>
 </template>
 
@@ -54,8 +51,8 @@ export default {
     }
 
     @keyframes dropDownEffect {
-    from { transform: translate3d( 0, 5px ,0 ) }
-    to { transform: translate3d( 0, 10px ,0 ) }
+    from { transform: translate3d( 0, -10px ,0 ) }
+    to { transform: translate3d( 0px, 0px ,0 ) }
   }
 
 </style>
