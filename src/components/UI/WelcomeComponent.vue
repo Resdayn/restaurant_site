@@ -5,7 +5,7 @@
         </div>
         <div id="welcome-right">
             <h1>Welcome to the Vegan Restaurant</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero nam ut, assumenda velit repellat consequatur quis fugiat corporis necessitatibus commodi!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero nam ut, assumenda velit repellat consequatur quis fugiat corporis necessitatibus commodi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint in ipsum itaque consectetur earum ipsam, voluptatibus blanditiis vero tempore sit ea soluta, dolore minima sequi nostrum ducimus molestias quod placeat.</p>
         </div>
     </section>
 </template>
@@ -13,7 +13,7 @@
 <style scoped>
 section{
     display: flex;
-    justify-content: center;
+    justify-content: stretch ;
     height: 400px;
 }
 
@@ -28,10 +28,11 @@ img {
     flex-direction: column;
     place-items: center;
     justify-content: space-evenly;
-    width: 50vw;
+    width: 50%;
     background: #256C40;
     color: white;
     height: 100%;
+    padding: 0 7rem;
 }
 
 #welcome-left{
