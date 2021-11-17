@@ -2,14 +2,17 @@
   <the-nav></the-nav>
   <landing-component></landing-component>
   <welcome-component></welcome-component>
+  <meaning-component></meaning-component>
 </template>
 <script>
 import LandingComponent from "./components/UI/LandingComponent.vue"
 import WelcomeComponent from "./components/UI/WelcomeComponent.vue"
+import MeaningComponent from "./components/UI/MeaningComponent.vue"
 export default {
   components: {
     LandingComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    MeaningComponent
   }
 }
 </script>
