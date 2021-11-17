@@ -1,6 +1,15 @@
 <template>
   <the-nav></the-nav>
+  <landing-component></landing-component>
 </template>
+<script>
+import LandingComponent from "./components/UI/LandingComponent.vue"
+export default {
+  components: {
+    LandingComponent
+  }
+}
+</script>
 
 <style>
 #app {
