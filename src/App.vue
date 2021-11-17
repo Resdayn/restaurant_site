@@ -1,12 +1,15 @@
 <template>
   <the-nav></the-nav>
   <landing-component></landing-component>
+  <welcome-component></welcome-component>
 </template>
 <script>
 import LandingComponent from "./components/UI/LandingComponent.vue"
+import WelcomeComponent from "./components/UI/WelcomeComponent.vue"
 export default {
   components: {
-    LandingComponent
+    LandingComponent,
+    WelcomeComponent
   }
 }
 </script>
