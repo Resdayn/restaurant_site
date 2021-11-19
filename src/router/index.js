@@ -20,6 +20,15 @@ const routes = [{
         }
     },
     {
+        path: '/menu',
+        name: 'Menu',
+        components: {
+            navbar: TheNav,
+            menu: MenuComponent,
+            footer: TheFooter
+        }
+    },
+    {
         path: '/about',
         name: 'About',
         // route level code-splitting
