@@ -3,16 +3,19 @@
   <landing-component></landing-component>
   <welcome-component></welcome-component>
   <meaning-component></meaning-component>
+  <menu-component></menu-component>
 </template>
 <script>
 import LandingComponent from "./components/UI/LandingComponent.vue"
 import WelcomeComponent from "./components/UI/WelcomeComponent.vue"
 import MeaningComponent from "./components/UI/MeaningComponent.vue"
+import MenuComponent from "./components/UI/MenuComponent.vue"
 export default {
   components: {
     LandingComponent,
     WelcomeComponent,
-    MeaningComponent
+    MeaningComponent,
+    MenuComponent
   }
 }
 </script>
