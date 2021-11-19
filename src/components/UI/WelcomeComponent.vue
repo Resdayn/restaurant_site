@@ -33,6 +33,7 @@ img {
     color: white;
     height: 100%;
     padding: 0 7rem;
+    flex: 1;
 }
 
 #welcome-left{
