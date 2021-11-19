@@ -1,10 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import TheNav from '../components/UI/TheNav.vue'
+import LandingComponent from "../components/UI/LandingComponent.vue"
+import WelcomeComponent from "../components/UI/WelcomeComponent.vue"
+import MeaningComponent from "../components/UI/MeaningComponent.vue"
+import MenuComponent from "../components/UI/MenuComponent.vue"
+import TheFooter from '../components/UI/TheFooter.vue'
 
 
 const routes = [{
         path: '/',
         name: 'Home',
-        // component: Home
+        components: {
+            navbar: TheNav,
+            landing: LandingComponent,
+            welcome: WelcomeComponent,
+            meaning: MeaningComponent,
+            menu: MenuComponent,
+            footer: TheFooter
+        }
     },
     {
         path: '/about',
