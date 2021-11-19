@@ -1,25 +1,11 @@
 <template>
-  <the-nav></the-nav>
-  <landing-component></landing-component>
-  <welcome-component></welcome-component>
-  <meaning-component></meaning-component>
-  <menu-component></menu-component>
-  <the-footer></the-footer>
+  <router-view name="navbar"></router-view>
+  <router-view name="landing"></router-view>
+  <router-view name="welcome"></router-view>
+  <router-view name="meaning"></router-view>
+  <router-view name="menu"></router-view>
+  <router-view name="footer"></router-view>
 </template>
-<script>
-import LandingComponent from "./components/UI/LandingComponent.vue"
-import WelcomeComponent from "./components/UI/WelcomeComponent.vue"
-import MeaningComponent from "./components/UI/MeaningComponent.vue"
-import MenuComponent from "./components/UI/MenuComponent.vue"
-export default {
-  components: {
-    LandingComponent,
-    WelcomeComponent,
-    MeaningComponent,
-    MenuComponent
-  }
-}
-</script>
 
 <style>
 #app {
