@@ -4,6 +4,7 @@
   <welcome-component></welcome-component>
   <meaning-component></meaning-component>
   <menu-component></menu-component>
+  <the-footer></the-footer>
 </template>
 <script>
 import LandingComponent from "./components/UI/LandingComponent.vue"
