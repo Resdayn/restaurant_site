@@ -10,7 +10,7 @@
         <div class="links-container">
             <nav-link linkTitle="Home">
                 <section>
-                    <a href="#">Home</a>
+                    <router-link to="/">Home</router-link>
                 </section>
             </nav-link>
             <nav-link linkTitle="About Us">
@@ -19,7 +19,7 @@
             </nav-link>
             <nav-link linkTitle='Services'>
                 <a href="#">Services</a>
-                <a href="#">Menu</a>    
+                <router-link to="/menu">Menu</router-link>   
             </nav-link>
             <nav-link linkTitle='Page'>
                 <a href="#">FAQs</a>
