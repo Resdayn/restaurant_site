@@ -25,7 +25,7 @@
         <p>contact@vegan.com</p>
         <p>ICONS</p>
     </section>
-    <div>
+    <div id="copyright">
         <hr>
         <p>Built by Juan González Palma based on the Vegan Restaurant theme on ThemeForest</p>
     </div>
@@ -43,9 +43,13 @@ section{
     "logo navigation quickLink services"
     "logo-text navigation quickLink services"
     ". . . ."
-    "address telephone email icons";
+    "address telephone email icons"
+    "copyright copyright copyright copyright";
     background-color: #95C18D;
     color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 #logo {
@@ -76,5 +80,8 @@ h3 {
 }
 div {
     background-color: #95C18D;
+}
+#copyright{
+    grid-area: copyright;
 }
 </style>
