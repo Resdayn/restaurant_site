@@ -14,7 +14,7 @@
                 </section>
             </nav-link>
             <nav-link linkTitle="About Us">
-                <a href="#">About Us</a>
+                <router-link to="/about">About Us</router-link>
                 <a href="#">Team</a>
             </nav-link>
             <nav-link linkTitle='Services'>
