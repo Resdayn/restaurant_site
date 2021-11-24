@@ -4,6 +4,7 @@ import LandingComponent from "../components/UI/LandingComponent.vue"
 import WelcomeComponent from "../components/UI/WelcomeComponent.vue"
 import MeaningComponent from "../components/UI/MeaningComponent.vue"
 import MenuComponent from "../components/UI/MenuComponent.vue"
+import AboutComponent from "../components/UI/AboutComponent.vue"
 import TheFooter from '../components/UI/TheFooter.vue'
 
 
@@ -31,11 +32,11 @@ const routes = [{
     {
         path: '/about',
         name: 'About',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () =>
-            import ( /* webpackChunkName: "about" */ '../views/About.vue')
+        components: {
+            navbar: TheNav,
+            about: AboutComponent,
+            footer: TheFooter
+        }
     }
 ]
 
