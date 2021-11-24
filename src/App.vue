@@ -4,6 +4,7 @@
   <router-view name="welcome"></router-view>
   <router-view name="meaning"></router-view>
   <router-view name="menu"></router-view>
+  <router-view name="about"></router-view>
   <router-view name="footer"></router-view>
 </template>
 
