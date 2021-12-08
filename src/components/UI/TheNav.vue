@@ -28,7 +28,7 @@
                 <a href="#">Product Category</a>     
             </nav-link>
             <nav-link linkTitle='Contact Us'>
-                ,<a href="#">Contact Us</a>     
+                <a href="#">Contact Us</a>     
             </nav-link>
         </div>
         <div class="buttons-container">
