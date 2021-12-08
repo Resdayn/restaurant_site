@@ -16,7 +16,6 @@ const routes = [{
             landing: LandingComponent,
             welcome: WelcomeComponent,
             meaning: MeaningComponent,
-            menu: MenuComponent,
             footer: TheFooter
         }
     },
