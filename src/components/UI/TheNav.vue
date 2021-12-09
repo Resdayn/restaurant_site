@@ -20,7 +20,7 @@
                 <router-link to="/menu">Menu</router-link>   
             </nav-link>
             <nav-link linkTitle='Page'>
-                <a href="#">FAQs</a>
+                <router-link to="/faq">FAQs</router-link>
                 <a href="#">Gallery</a>    
             </nav-link>
             <nav-link linkTitle='Contact Us'>
