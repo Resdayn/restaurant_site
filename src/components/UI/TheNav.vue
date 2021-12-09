@@ -15,17 +15,13 @@
             </nav-link>
             <nav-link linkTitle="About Us">
                 <router-link to="/about">About Us</router-link>
-                <a href="#">Team</a>
             </nav-link>
             <nav-link linkTitle='Services'>
-                <a href="#">Services</a>
                 <router-link to="/menu">Menu</router-link>   
             </nav-link>
             <nav-link linkTitle='Page'>
                 <a href="#">FAQs</a>
-                <a href="#">Gallery</a>
-                <a href="#">Blog</a> 
-                <a href="#">Product Category</a>     
+                <a href="#">Gallery</a>    
             </nav-link>
             <nav-link linkTitle='Contact Us'>
                 <a href="#">Contact Us</a>     
