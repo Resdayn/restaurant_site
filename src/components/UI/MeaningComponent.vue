@@ -1,7 +1,7 @@
 <template>
     <section>
         <div id="left">
-            <img src="../../assets/farmer.png">
+            <img src="../../assets/farmer_pic.png">
         </div>
         <div id="right">
             <h1>What is the Meaning of Being a Vegan ?</h1>
