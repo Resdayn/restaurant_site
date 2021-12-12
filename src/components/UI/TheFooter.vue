@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="wrapper">
         <section>
             <img id="logo" src="../../assets/restaurant_logo.png">
             <p id="logo-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus soluta assumenda dolores repudiandae odio.</p>
@@ -37,6 +37,11 @@
 <style scoped>
 * {
     margin: 0;
+}
+#wrapper{
+    position: absolute;
+    width: 100%;
+    bottom: -1;
 }
 section{
     display: grid;
