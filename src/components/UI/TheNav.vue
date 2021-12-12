@@ -21,7 +21,7 @@
             </nav-link>
             <nav-link linkTitle='Page'>
                 <router-link to="/faq">FAQs</router-link>
-                <a href="#">Gallery</a>    
+                <router-link to="/gallery">Gallery</router-link>  
             </nav-link>
             <nav-link linkTitle='Contact Us'>
                 <a href="#">Contact Us</a>     
