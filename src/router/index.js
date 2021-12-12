@@ -6,6 +6,7 @@ import MeaningComponent from "../components/UI/MeaningComponent.vue"
 import MenuComponent from "../components/UI/MenuComponent.vue"
 import AboutComponent from "../components/UI/AboutComponent.vue"
 import FaqComponent from "../components/UI/FaqComponent.vue"
+import GalleryComponent from "../components/UI/GalleryComponent.vue"
 import TheFooter from '../components/UI/TheFooter.vue'
 
 
@@ -44,6 +45,15 @@ const routes = [{
         components: {
             navbar: TheNav,
             about: FaqComponent,
+            footer: TheFooter
+        }
+    },
+    {
+        path: '/gallery',
+        name: 'Gallery',
+        components: {
+            navbar: TheNav,
+            about: GalleryComponent,
             footer: TheFooter
         }
     }
