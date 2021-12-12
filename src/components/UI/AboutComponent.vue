@@ -56,6 +56,9 @@ export default {
 </script>
 
 <style scoped>
+section{
+    margin-bottom: 3rem;
+}
 #upperContainer {
     margin: 3rem 0;
 }
