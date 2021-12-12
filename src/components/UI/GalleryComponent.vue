@@ -11,6 +11,9 @@
 </template>
 
 <style scoped>
+section{
+    margin: 3rem 0;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
