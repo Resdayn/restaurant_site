@@ -24,7 +24,7 @@
                 <router-link to="/gallery">Gallery</router-link>  
             </nav-link>
             <nav-link linkTitle='Contact Us'>
-                <a href="#">Contact Us</a>     
+                <router-link to="/contact"> Contact Us</router-link>     
             </nav-link>
         </div>
         <div class="buttons-container">
