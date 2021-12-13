@@ -8,6 +8,7 @@ import AboutComponent from "../components/UI/AboutComponent.vue"
 import FaqComponent from "../components/UI/FaqComponent.vue"
 import GalleryComponent from "../components/UI/GalleryComponent.vue"
 import ContactComponent from "../components/UI/ContactComponent.vue"
+import NotFound from "../components/UI/NotFound.vue"
 import TheFooter from '../components/UI/TheFooter.vue'
 
 
@@ -66,10 +67,20 @@ const routes = [{
             about: ContactComponent,
             footer: TheFooter
         }
+    },
+    {
+        path: '/:catchAll(.*)',
+        name: 'NotFound',
+        components: {
+            navbar: TheNav,
+            about: NotFound,
+            footer: TheFooter
+        }
     }
 ]
 
 const router = createRouter({
+    mode: 'history',
     history: createWebHistory(process.env.BASE_URL),
     routes
 })
