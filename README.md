@@ -1,24 +1,5 @@
-# restaurant_site
+# Restaurant Site
 
-## Project setup
-```
-npm install
-```
+This a replica of the Vegan Restaurant theme in themeforest.net. It is made entirely with Vue router.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<img src="./src/assets/repository_landing.png">
